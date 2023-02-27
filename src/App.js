@@ -35,6 +35,14 @@ function test(){
       // mode: 'cors', 
       // body: JSON.stringify(jsonData) // body data type must match "Content-Type" header
 
-    })
+    });    
+    console.log("test2222222222222222222");
+    // Send data to the backend via POST
+    fetch('/api/HttpTrigger1?code=esYiXyVIrV1uRXcl8tJiJh6fVJtDmRUssVHHGyWdv6r_AzFukEta_w==', {  // Enter your IP address here
+    method: 'GET' 
+    // mode: 'cors', 
+    // body: JSON.stringify(jsonData) // body data type must match "Content-Type" header
+
+  })
 }
 export default App;
